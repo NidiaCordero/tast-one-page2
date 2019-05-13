@@ -1,0 +1,51 @@
+// section story
+.story {
+    background: url('../images/main_bg.jpg') repeat;
+    width: 100%;
+    top: -60px;
+    position: relative;
+    padding-top: 50px;
+
+    .titres_story {
+        font-family: $courgette;
+        img {
+            width: 100%;
+        }
+
+        .s_special {
+           
+            font-size: 2.5rem;
+            color : $danger;
+
+        }
+    }
+    .img_b {
+        img {
+
+        
+        margin-top: -30px;
+    }
+    }
+    
+}
+
+@include media-breakpoint-down(md) {
+    .container {
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-left: 0;
+    }
+    
+}
+@include media-breakpoint-up(lg) {
+    .story {
+
+    
+    // center menu responsive
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    }
+
+}

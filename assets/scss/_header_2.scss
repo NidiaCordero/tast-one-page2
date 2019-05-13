@@ -4,9 +4,6 @@ header {
         height: 50px;
         // padding-top: 10px;
         z-index: 100;
-        left: 0;
-        position: absolute;
-
     }
 
     nav {
@@ -79,7 +76,7 @@ header {
 
         .call {
             h1 {
-                font-family: $courgette;
+                font-family: 'Courgette', cursive;
                 font-size: 2.5rem;
 
             }
