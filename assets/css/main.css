@@ -10747,12 +10747,43 @@ header .border_decor {
   margin-top: -30px;
 }
 
-.story .nav-link {
-  background-color: white !important;
-  color: black;
+.story .tabs {
+  margin-top: 50px;
 }
 
-.story .nav-link font- i {
+.story .nav-pills .nav-link {
+  background-color: white !important;
+  font-family: "Courgette", cursive;
+}
+
+.story .nav-pills .nav-link h5 {
+  color: black !important;
+}
+
+.story .nav-pills .nav-link i {
+  color: #cccccc;
+}
+
+.story .nav-pills .active {
+  border-right: solid 4px #dc3545;
+  border-bottom: solid 1px #cccccc;
+}
+
+.story .nav-pills .active i {
+  color: #dc3545;
+}
+
+.story .menu img {
+  border-radius: 50px;
+  border: solid 3px #cccccc;
+}
+
+.story .menu .all_contenu {
+  border-bottom: solid 1px #cccccc;
+}
+
+.story .menu .prix {
+  background-color: #cccccc;
   color: #dc3545;
 }
 

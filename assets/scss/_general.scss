@@ -28,11 +28,53 @@
             margin-top: -30px;
         }
     }
-    .nav-link {
-        background-color: white!important;
-        color: black;
-        font-family: $courgette;
-        i {
+.tabs {
+    margin-top: 50px;
+}
+    .nav-pills {
+
+        .nav-link {
+            background-color: white !important;
+
+            font-family: $courgette;
+
+
+            h5 {
+                color: black !important;
+            }
+
+            i {
+                color: #cccccc;
+            }
+
+        }
+        .active{
+           
+               border-right: solid 4px $danger;
+               border-bottom: solid 1px #cccccc;
+
+           
+            i {
+                color: $danger;
+            }
+            
+
+           
+        }
+    }
+    // conten menu
+    .menu {
+    
+        img {
+            border-radius: 50px;
+            border: solid 3px #cccccc;
+        }
+        .all_contenu {
+            border-bottom: solid 1px #cccccc;
+            
+        }
+        .prix {
+            background-color: #cccccc;
             color: $danger;
         }
     }
