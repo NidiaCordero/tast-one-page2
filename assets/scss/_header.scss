@@ -143,14 +143,17 @@ header {
             font-size: 12px;
 
         }
-        .carousel {
-            
-                &:after {
-                    background: url('../images/bottom_decoration_img.png') no-repeat;
-                    height: 10px;
-                    width: 10px;
-                }
-            
+
+    }
+
+    .border_decor {
+        width: 100%;
+        display: block;
+        height: 15px;
+
+        img {
+            height: 15px;
+            width: 97px;
         }
     }
 }
@@ -191,8 +194,8 @@ header {
 
             a {
                 color: black;
-                border:none!important;
-              
+                border: none !important;
+
             }
         }
 
