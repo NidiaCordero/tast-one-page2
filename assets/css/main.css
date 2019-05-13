@@ -10747,6 +10747,15 @@ header .border_decor {
   margin-top: -30px;
 }
 
+.story .nav-link {
+  background-color: white !important;
+  color: black;
+}
+
+.story .nav-link font- i {
+  color: #dc3545;
+}
+
 @media (max-width: 991.98px) {
   .container {
     padding-left: 3%;

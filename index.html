@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/hover.css/css/hover-min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <title>Taste</title>
 </head>
@@ -140,7 +141,7 @@
     <section class="story">
         <div class="container bg-white m-auto">
             <div class="row titres_story d-flex justify-content-center align-items-center  ">
-                <div class="col-2 pl-0">
+                <div class="col-2 ">
                     <div class="img_b">
                         <img src="./assets/images/box-left-top.png" alt="box">
                     </div>
@@ -151,7 +152,7 @@
                         <img src="./assets/images/decoration_line.png" class="w-50" alt="deco_soustitre">
                     </div>
                 </div>
-                <div class="col-2 text-right pr-0">
+                <div class="col-2 text-right ">
                     <div class="img_b ">
                         <img src="./assets/images/box-right-top.png" alt="box">
                     </div>
@@ -170,15 +171,75 @@
                 </div>
             </div>
             <div class="row titres_story d-flex justify-content-center align-items-center ">
-                   
-                    <div class="col-12 text-center">
-                        <div class="img_b">
-                            <h3> <span class="s_special">OUR</span> Menu List</h3>
-                            <img src="./assets/images/decoration_line.png" class="w-50" alt="deco_soustitre">
-                        </div>
+                <div class="col-12 text-center">
+                    <div class="img_b">
+                        <h3> <span class="s_special">OUR</span> Menu List</h3>
+                        <img src="./assets/images/decoration_line.png" class="w-50" alt="deco_soustitre">
                     </div>
-                   
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills icones_menu" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                            role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <i class="fas fa-mug-hot fa-4x"></i>
+                            <h5>BreakFast</h5>
+                        </a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                            role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                            role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                            role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="row menu">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="./assets/images/menu_image_1.jpg" alt="menu">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6>Deer Steak with Patatoes</h6>
+                                            <p>Welcome to Risotto restaurant website.Here we try to share our</p>
+                                        </div>
+                                        <div class="col-3">
+                                            <span class="prix">$25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="./assets/images/menu_image_1.jpg" alt="menu">
+                                        </div>
+                                        <div class="col-6">
+                                            <h6>Deer Steak with Patatoes</h6>
+                                            <p>Welcome to Risotto restaurant website.Here we try to share our</p>
+                                        </div>
+                                        <div class="col-3">
+                                            <span class="prix">$25</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">...</div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">...</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- scripts js -->

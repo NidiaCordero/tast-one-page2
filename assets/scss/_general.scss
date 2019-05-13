@@ -8,25 +8,35 @@
 
     .titres_story {
         font-family: $courgette;
+
         img {
             width: 100%;
         }
 
         .s_special {
-           
+
             font-size: 2.5rem;
-            color : $danger;
+            color: $danger;
 
         }
     }
+
     .img_b {
         img {
 
-        
-        margin-top: -30px;
+
+            margin-top: -30px;
+        }
     }
+    .nav-link {
+        background-color: white!important;
+        color: black;
+        font-family: $courgette;
+        i {
+            color: $danger;
+        }
     }
-    
+
 }
 
 @include media-breakpoint-down(md) {
@@ -35,17 +45,18 @@
         padding-right: 3%;
         margin-left: 0;
     }
-    
+
 }
+
 @include media-breakpoint-up(lg) {
     .story {
 
-    
-    // center menu responsive
-    .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
+        // center menu responsive
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
 
 }
