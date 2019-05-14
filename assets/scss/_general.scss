@@ -6,7 +6,9 @@
     text-transform: uppercase;
 
 }
-
+.titres_story {
+    font-family: $courgette;
+}
 .story {
     background: url('../images/main_bg.jpg') repeat;
     width: 100%;
@@ -157,6 +159,9 @@
         }
     }
 }
+// section book 
+// book your table
+
 
 @include media-breakpoint-down(md) {
     .container {

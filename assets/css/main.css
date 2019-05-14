@@ -10729,6 +10729,10 @@ header .border_decor {
   text-transform: uppercase;
 }
 
+.titres_story {
+  font-family: "Courgette", cursive;
+}
+
 .story {
   background: url("../images/main_bg.jpg") repeat;
   width: 100%;
