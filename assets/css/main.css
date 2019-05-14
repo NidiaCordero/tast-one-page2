@@ -10705,7 +10705,7 @@ header .border_decor {
     background-color: white;
   }
   .carousel-caption {
-    top: 20%;
+    top: 15%;
   }
 }
 
@@ -10743,12 +10743,12 @@ header .border_decor {
   color: #dc3545;
 }
 
-.story .img_b img {
-  margin-top: -30px;
-}
-
 .story .tabs {
   margin-top: 50px;
+}
+
+.story .tabs p {
+  font-size: 13px;
 }
 
 .story .nav-pills .nav-link {
@@ -10762,6 +10762,10 @@ header .border_decor {
 
 .story .nav-pills .nav-link i {
   color: #cccccc;
+}
+
+.story .nav-pills .nav-link .all_contenu p {
+  font-size: 13px !important;
 }
 
 .story .nav-pills .active {
@@ -10792,6 +10796,15 @@ header .border_decor {
     padding-left: 3%;
     padding-right: 3%;
     margin-left: 0;
+  }
+  .tabs .all_contenu [class*="col-"] {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .tabs .all_contenu [class*="col-"] {
+    padding-bottom: 15px;
   }
 }
 
