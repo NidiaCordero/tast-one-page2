@@ -1,3 +1,7 @@
+body {
+    margin:0;
+ padding:0;
+}
 .s_special {
 
     font-size: 2.5rem;
@@ -27,13 +31,6 @@
 
     }
 
-    .img_b {
-        img {
-
-
-            // margin-top: -30px;
-        }
-    }
 
     .tabs {
         margin-top: 50px;
@@ -42,7 +39,7 @@
             font-size: 13px;
         }
 
-        .all_contenu {}
+       
     }
 
     .nav-pills {
@@ -283,6 +280,38 @@
 }
 
 //section blog
+.testimonial {
+   
+        background: url('../images/testimonials_background.jpg');
+        width: 100%;
+    
+        position: relative;
+        padding-top: 50px;
+        color: white;
+       
+        .test_division {
+
+        
+        img {
+            border-radius: 50%;
+            border: solid 2px #CCCCCC;
+            width: 100%;
+            
+        }
+        span {
+            font-weight: lighter;
+            color: $danger;
+        }
+        p {
+            font-size: 14px;
+        }
+        .contenu_test {
+            border:solid 1px white;
+            border-radius: 10px;
+        }
+        }
+
+}
 
 
 @include media-breakpoint-down(md) {
@@ -295,7 +324,7 @@
 
     .tabs {
 
-        p {}
+        
 
         .all_contenu {
             [class*="col-"] {
@@ -321,7 +350,15 @@
             }
         }
     }
+    .perso {
+        
 
+        img {
+           
+            width: 50%;
+
+        }
+    }
 }
 
 @include media-breakpoint-up(md) {
