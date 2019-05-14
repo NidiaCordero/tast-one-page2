@@ -1,4 +1,12 @@
-// section story
+.s_special {
+
+    font-size: 2.5rem;
+    color: $danger;
+    font-family: $courgette;
+    text-transform: uppercase;
+
+}
+
 .story {
     background: url('../images/main_bg.jpg') repeat;
     width: 100%;
@@ -13,12 +21,6 @@
             width: 100%;
         }
 
-        .s_special {
-
-            font-size: 2.5rem;
-            color: $danger;
-
-        }
     }
 
     .img_b {
@@ -31,12 +33,12 @@
 
     .tabs {
         margin-top: 50px;
+
         p {
-            font-size:13px;
+            font-size: 13px;
         }
-        .all_contenu {
-         
-        }
+
+        .all_contenu {}
     }
 
     .nav-pills {
@@ -59,7 +61,7 @@
 
 
                 p {
-                    font-size: 13px!important;
+                    font-size: 13px !important;
 
                 }
             }
@@ -78,7 +80,7 @@
 
 
         }
-       
+
     }
 
     // conten menu
@@ -102,6 +104,60 @@
 
 }
 
+// section ourchef
+.Ourchef {
+    background: url(../images/team_background.jpg) center no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: -60px;
+    background-size: 800%;
+    background-position-y: 35%;
+    background-position-x: 48%;
+    position: relative;
+
+    &::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .titres_story {
+        font-family: $courgette;
+        z-index: 10;
+        position: relative;
+
+        h3 {
+            color: white;
+        }
+
+
+    }
+
+    .perso {
+        text-align: center;
+        z-index: 10;
+        position: relative;
+
+        p {
+            color: white !important;
+        }
+
+        img {
+            border-bottom: solid 1px #cccccc;
+            
+        }
+    }
+}
+
 @include media-breakpoint-down(md) {
     .container {
         padding-left: 3%;
@@ -109,37 +165,36 @@
         margin-left: 0;
     }
 
-    
+
     .tabs {
-       
-        p {
-            
-        }
+
+        p {}
+
         .all_contenu {
-            [class*="col-"]{
-                padding-bottom:0;
+            [class*="col-"] {
+                padding-bottom: 0;
             }
         }
     }
 
 }
 
-@include media-breakpoint-up(md)  {
-     
+@include media-breakpoint-up(md) {
+
     .tabs {
-       
-        p {
-            
-        }
+
+        p {}
+
         .all_contenu {
-            [class*="col-"]{
-                padding-bottom:15px;
+            [class*="col-"] {
+                padding-bottom: 15px;
             }
         }
     }
 
-    
+
 }
+
 @include media-breakpoint-up(lg) {
     .story {
 
@@ -150,6 +205,6 @@
             padding-right: 0;
         }
     }
-    
+
 
 }

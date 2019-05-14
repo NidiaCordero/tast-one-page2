@@ -10722,6 +10722,13 @@ header .border_decor {
   }
 }
 
+.s_special {
+  font-size: 2.5rem;
+  color: #dc3545;
+  font-family: "Courgette", cursive;
+  text-transform: uppercase;
+}
+
 .story {
   background: url("../images/main_bg.jpg") repeat;
   width: 100%;
@@ -10736,11 +10743,6 @@ header .border_decor {
 
 .story .titres_story img {
   width: 100%;
-}
-
-.story .titres_story .s_special {
-  font-size: 2.5rem;
-  color: #dc3545;
 }
 
 .story .tabs {
@@ -10789,6 +10791,56 @@ header .border_decor {
 .story .menu .prix {
   background-color: #cccccc;
   color: #dc3545;
+}
+
+.Ourchef {
+  background: url(../images/team_background.jpg) center no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: -60px;
+  background-size: 800%;
+  background-position-y: 35%;
+  background-position-x: 48%;
+  position: relative;
+}
+
+.Ourchef::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Ourchef .titres_story {
+  font-family: "Courgette", cursive;
+  z-index: 10;
+  position: relative;
+}
+
+.Ourchef .titres_story h3 {
+  color: white;
+}
+
+.Ourchef .perso {
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+
+.Ourchef .perso p {
+  color: white !important;
+}
+
+.Ourchef .perso img {
+  border-bottom: solid 1px #cccccc;
 }
 
 @media (max-width: 991.98px) {
