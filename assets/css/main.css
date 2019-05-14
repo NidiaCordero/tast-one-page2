@@ -10715,13 +10715,6 @@ header .border_decor {
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    padding-left: 7%;
-    padding-right: 7%;
-  }
-}
-
 .s_special {
   font-size: 2.5rem;
   color: #dc3545;
@@ -10847,14 +10840,114 @@ header .border_decor {
   border-bottom: solid 1px #cccccc;
 }
 
+.booktable {
+  background: url("../images/main_bg.jpg") repeat;
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.booktable .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.booktable .container .titres_story img {
+  width: 100%;
+}
+
+.booktable .container h6 {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.booktable .container .contenu_form {
+  background-image: url("/assets/images/book_table_bg.jpg");
+  width: 100%;
+  border-radius: 15px;
+}
+
+.booktable .container .btn-light.hvr-bounce-to-right {
+  border-radius: 50px !important;
+}
+
+.booktable .container .btn-light.hvr-bounce-to-right:before {
+  background-color: #dc3545;
+  width: 100%;
+  border-radius: 50px !important;
+}
+
+.booktable .container .btn-danger.hvr-bounce-to-right {
+  border-radius: 50px !important;
+}
+
+.booktable .container .btn-danger.hvr-bounce-to-right:before {
+  background-color: #f8f9fa;
+  width: 100%;
+  border-radius: 50px !important;
+}
+
+.booktable .container .btn-danger.hvr-bounce-to-right:hover {
+  color: #dc3545 !important;
+}
+
+.booktable .container button {
+  border-radius: 50px;
+  height: 50px;
+  padding: 10px;
+  min-width: 150px;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.blog_contenu .blog_img img {
+  border-radius: 15px;
+  border: solid 3px #cccccc;
+  width: 100%;
+}
+
+.blog_contenu .blog_text {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.blog_contenu .blog_text h5 {
+  background-color: #dc3545;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  top: -20px;
+  border-radius: 10px;
+}
+
+.blog_contenu .blog_text h6 {
+  color: black;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 991.98px) {
   .container {
-    padding-left: 3%;
-    padding-right: 3%;
     margin-left: 0;
   }
   .tabs .all_contenu [class*="col-"] {
     padding-bottom: 0;
+  }
+  .titres_story .img_b img {
+    width: 100%;
+  }
+  .titres_story .img_b h3 {
+    font-size: 1rem;
+    margin-top: 40px;
+  }
+  .titres_story .img_b span {
+    font-size: 1rem;
   }
 }
 
