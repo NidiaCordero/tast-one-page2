@@ -1,7 +1,8 @@
 body {
-    margin:0;
- padding:0;
+    margin: 0;
+    padding: 0;
 }
+
 .s_special {
 
     font-size: 2.5rem;
@@ -39,7 +40,7 @@ body {
             font-size: 13px;
         }
 
-       
+
     }
 
     .nav-pills {
@@ -249,11 +250,12 @@ body {
     .blog_text {
         margin-left: 20px;
 
-            margin-right: 20px;
+        margin-right: 20px;
+
         h5 {
             background-color: $danger;
 
-            
+
 
             text-align: center;
 
@@ -274,45 +276,77 @@ body {
             color: black;
 
             margin-bottom: 10px;
-            
+
         }
     }
 }
 
 //section blog
 .testimonial {
-   
-        background: url('../images/testimonials_background.jpg');
-        width: 100%;
-    
-        position: relative;
-        padding-top: 50px;
-        color: white;
-       
-        .test_division {
 
-        
+    background: url('../images/testimonials_background.jpg');
+    width: 100%;
+
+    position: relative;
+    padding-top: 50px;
+    color: white;
+
+    .test_division {
+
+
         img {
             border-radius: 50%;
             border: solid 2px #CCCCCC;
             width: 100%;
-            
+
         }
+
         span {
             font-weight: lighter;
             color: $danger;
         }
+
         p {
             font-size: 14px;
         }
+
         .contenu_test {
-            border:solid 1px white;
+            border: solid 1px white;
             border-radius: 10px;
         }
-        }
+    }
 
 }
 
+// section our contact
+.ourcontact {
+    background: url('../images/main_bg.jpg') repeat;
+    width: 100%;
+
+    position: relative;
+    padding-top: 50px;
+
+    .contact {
+        border-radius: 15px;
+
+        .contact_decoup {
+
+            background-color: $danger;
+            border-radius: 15px;
+
+            .contact_contenu {
+
+                color: white;
+                border-bottom: solid 1px #cccccc;
+
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
 
 @include media-breakpoint-down(md) {
     .container {
@@ -324,7 +358,7 @@ body {
 
     .tabs {
 
-        
+
 
         .all_contenu {
             [class*="col-"] {
@@ -350,11 +384,12 @@ body {
             }
         }
     }
+
     .perso {
-        
+
 
         img {
-           
+
             width: 50%;
 
         }
