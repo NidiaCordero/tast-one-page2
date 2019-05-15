@@ -10990,6 +10990,86 @@ body {
   border-bottom: none;
 }
 
+.footer {
+  background: url("../images/footer_background.jpg");
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.footer .bord_ {
+  background-image: url("../images/footer_bottom_decoration_img.png");
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  top: 0;
+}
+
+.footer .div_footer {
+  color: white;
+}
+
+.footer .div_footer h5 {
+  margin-bottom: 20px;
+}
+
+.footer .images [class*="col-"] {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.footer .images img {
+  width: 80%;
+}
+
+.footer .btn-light.hvr-bounce-to-right {
+  border-radius: 50px !important;
+}
+
+.footer .btn-light.hvr-bounce-to-right:before {
+  background-color: #c42d40;
+  width: 100%;
+  border-radius: 50px !important;
+}
+
+.footer .btn-danger.hvr-bounce-to-right {
+  border-radius: 50px !important;
+}
+
+.footer .btn-danger.hvr-bounce-to-right:before {
+  background-color: #f8f9fa;
+  width: 100%;
+  border-radius: 50px !important;
+}
+
+.footer .btn-danger.hvr-bounce-to-right:hover {
+  color: #c42d40 !important;
+}
+
+.footer button {
+  border-radius: 50px;
+  height: 35px;
+  padding: 5px;
+  min-width: 60px;
+  margin-right: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: solid 1px white;
+}
+
+footer {
+  background-color: #c42d40;
+  color: white;
+  font-size: 10px;
+  height: 50px;
+}
+
+footer p {
+  line-height: 50px;
+  margin-bottom: 0;
+}
+
 @media (max-width: 991.98px) {
   .container {
     margin-left: 0;
@@ -11009,6 +11089,9 @@ body {
   }
   .perso img {
     width: 50%;
+  }
+  .div_footer h5 {
+    margin-top: 30px;
   }
 }
 
