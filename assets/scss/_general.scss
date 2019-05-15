@@ -15,7 +15,12 @@ body {
 .titres_story {
     font-family: $courgette;
 }
-
+.titre_special {
+    margin-top: -45px;
+    h3 {
+        margin-top: 50px;
+    }
+}
 .story {
     background: url('../images/main_bg.jpg') repeat;
     width: 100%;

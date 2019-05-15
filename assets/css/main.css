@@ -10731,6 +10731,14 @@ body {
   font-family: "Courgette", cursive;
 }
 
+.titre_special {
+  margin-top: -45px;
+}
+
+.titre_special h3 {
+  margin-top: 50px;
+}
+
 .story {
   background: url("../images/main_bg.jpg") repeat;
   width: 100%;
