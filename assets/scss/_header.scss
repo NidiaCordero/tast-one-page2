@@ -174,9 +174,9 @@ header {
 // max-width
 @include media-breakpoint-down(md) {
     .container {
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 7%;
+        // padding-left: 0;
+        // padding-right: 0;
+        // margin-left: 7%;
     }
 
     header {

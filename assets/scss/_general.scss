@@ -32,7 +32,7 @@ body {
         font-family: $courgette;
 
         img {
-            width: 100%;
+            // width: 100%;
         }
 
     }
@@ -178,13 +178,13 @@ body {
     padding-top: 50px;
 
     .container {
-        padding-left: 0;
-        padding-right: 0;
+        // padding-left: 0;
+        // padding-right: 0;
 
         .titres_story {
 
             img {
-                width: 100%;
+                // width: 100%;
             }
 
         }
@@ -259,8 +259,6 @@ body {
 
         h5 {
             background-color: $danger;
-
-
 
             text-align: center;
 
@@ -442,7 +440,7 @@ footer {
     .container {
         // padding-left: 3%;
         // padding-right: 3%;
-        margin-left: 0;
+        // margin-left: 0;
     }
 
 
@@ -512,8 +510,8 @@ footer {
 
         // center menu responsive
         .container {
-            padding-left: 0;
-            padding-right: 0;
+            // padding-left: 0;
+            // padding-right: 0;
         }
     }
 

@@ -10689,11 +10689,6 @@ header .border_decor {
 }
 
 @media (max-width: 991.98px) {
-  .container {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 7%;
-  }
   header nav #navbarNav {
     background-color: black;
   }
@@ -10749,10 +10744,6 @@ body {
 
 .story .titres_story {
   font-family: "Courgette", cursive;
-}
-
-.story .titres_story img {
-  width: 100%;
 }
 
 .story .tabs {
@@ -10858,15 +10849,6 @@ body {
   width: 100%;
   position: relative;
   padding-top: 50px;
-}
-
-.booktable .container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.booktable .container .titres_story img {
-  width: 100%;
 }
 
 .booktable .container h6 {
@@ -11079,9 +11061,6 @@ footer p {
 }
 
 @media (max-width: 991.98px) {
-  .container {
-    margin-left: 0;
-  }
   .tabs .all_contenu [class*="col-"] {
     padding-bottom: 0;
   }
@@ -11106,13 +11085,6 @@ footer p {
 @media (min-width: 768px) {
   .tabs .all_contenu [class*="col-"] {
     padding-bottom: 15px;
-  }
-}
-
-@media (min-width: 992px) {
-  .story .container {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
